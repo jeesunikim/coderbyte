@@ -12,7 +12,7 @@ function DivisionStringified(num1,num2) {
   return num.join("");
 }
 
-//splice method gets tricy when you use a negative value as a start
+//splice method gets tricky when you use a negative value as a start
 //for instance,
 //var myAnimal=["dogs","monkey","penguin","turtle"];
 //myAnimal.splice(1,0,"GERMAN SHEPHERD") //will bring ["dogs", "GERMAN SHEPHERD", "monkey", "penguin", "turtle"] obviously because it's taking over myAnimal[1];
