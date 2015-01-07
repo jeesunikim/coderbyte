@@ -23,7 +23,7 @@ print(SecondGreatLow(readline()));
 
 
 
-
+//Lindsey's solution
 function SecondGreatLow(arr) { 
   var unique = [arr[0]];
   for(var i = 1; i < arr.length; i++) {
