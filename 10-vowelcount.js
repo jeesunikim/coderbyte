@@ -11,3 +11,9 @@ function VowelCount(str) {
 // keep this function call here 
 // to see how to enter arguments in JavaScript scroll down
 VowelCount(readline());           
+
+//mattlarsh's code - super simple
+function VowelCount(str) { 
+  var vowels = str.match(/[aeiou]/g);
+  return vowels.length;
+}
